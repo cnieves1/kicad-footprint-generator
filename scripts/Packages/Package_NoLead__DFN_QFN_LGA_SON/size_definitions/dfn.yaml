@@ -201,8 +201,8 @@ DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm:
     minimum: 0.2
     maximum: 0.3
   lead_len:
-    minimum: 0.15
-    maximum: 0.15
+    minimum: 0.25
+    maximum: 0.45
 
   EP_size_x:
     minimum: 0.5

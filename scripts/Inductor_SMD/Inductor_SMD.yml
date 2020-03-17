@@ -28,6 +28,16 @@
 #
 #
 
+L_Bourns_SRF1260:
+  description: "Inductor, Bourns, SRF1260, 12.5mmx12.5mm"
+  datasheet: "https://www.bourns.com/docs/Product-Datasheets/SRF1260.pdf"
+  tags: "Inductor Bourns_SRF1260"
+  extratexts: [[-49.0, -0.05, "", "F.SilkS", 3.0, 3.0]]
+  at: [-6.25, 6.25]
+  size: [12.50, 12.50]
+  smd_tht: "smd"
+  pins: [["smd", "1", -1.715, 4.25, 2.15, 4.5, 0.0], ["smd", "2", 1.715, 4.25, 2.15, 4.5, 0.0], ["smd", "3", 1.715, -4.25, 2.15, 4.5, 0.0], ["smd", "4", -1.715, -4.25, 2.15, 4.5, 0.0]]
+
 L_Bourns_SRP5030T:
   description: "Inductor, Bourns, SRP5030T, 5.7mmx5.2mm"
   datasheet: "https://www.bourns.com/data/global/pdfs/SRP5030T.pdf"
@@ -37,7 +47,6 @@ L_Bourns_SRP5030T:
   size: [5.70, 5.20]
   smd_tht: "smd"
   pins: [["smd", "1", -2.25, 0, 2.0, 1.8, 0.0], ["smd", "2", 2.25, 0, 2.0, 1.8, 0.0]]
-
 
 L_TDK_SLF6025:
   description: "Inductor, TDK, SLF6025, 6.0mmx6.0mm"

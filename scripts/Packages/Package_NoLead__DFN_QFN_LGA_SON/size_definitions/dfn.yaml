@@ -571,11 +571,11 @@ WDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm:
   #suffix: '_Pad{pad_x:.2f}x{pad_y:.2f}mm_HandSolder'
   #include_suffix_in_3dpath: 'False'
 
-WDFN-8-1EP_4x3mm_P0.65mm_EP2.4x1.8mm:
+WDFN-8-1EP_4x3mm_P0.65mm_EP2.5x1.9mm:
   device_type: 'WDFN'
   #manufacturer: 'man'
   #part_number: 'mpn'
-  size_source: 'https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF'
+  size_source: 'https://www.onsemi.com/pub/Collateral/509AF.PDF'
   ipc_class: 'qfn' # 'qfn_pull_back'
   #ipc_density: 'least' #overwrite global value for this device.
   body_size_x:
@@ -589,9 +589,12 @@ WDFN-8-1EP_4x3mm_P0.65mm_EP2.4x1.8mm:
   lead_len_min: 0.45
   lead_len_max: 0.55
 
-
-  EP_size_x: 2.4
-  EP_size_y: 1.8
+  EP_size_x:
+    minimum: 2.3
+    nominal: 2.5
+  EP_size_y:
+    minimum: 1.7
+    nominal: 1.9
   # EP_paste_coverage: 0.65
   EP_num_paste_pads: [2, 2]
   thermal_vias:

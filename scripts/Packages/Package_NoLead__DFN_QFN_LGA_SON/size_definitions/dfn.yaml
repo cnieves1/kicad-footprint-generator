@@ -539,7 +539,7 @@ Balun_Johanson_0900PC15J0013:
   manufacturer: 'Johanson'
   part_number: '0900PC15J0013'
   library: 'RF_Converter'
-  size_source: 'https://johansontechnology.com/datasheets/highly-integrated-passive-components/0900PC15J0013.pdf'
+  size_source: 'https://www.johansontechnology.com/datasheets/0900PC15J0013/0900PC15J0013.pdf'
   custom_name_format: 'Balun_Johanson_0900PC15J0013'
   # ipc_class: 'qfn' # 'qfn_pull_back'
   #ipc_density: 'least' #overwrite global value for this device.
